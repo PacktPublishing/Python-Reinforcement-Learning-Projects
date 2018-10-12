@@ -50,7 +50,7 @@ With the following software and hardware list you can run all code files present
 
 * Reinforcement Learning with TensorFlow [[Packt]](https://www.packtpub.com/big-data-and-business-intelligence/reinforcement-learning-tensorflow?utm_source=github&utm_medium=repository&utm_campaign=9781788835725) [[Amazon]](https://www.amazon.com/dp/1788835727)
 
-## Get to Know the Author(s)
+## Get to Know the Authors
 **Sean Saito**
 
 Sean Saito is the youngest ever Machine Learning Developer at SAP and the first bachelor hired for the position. He currently researches and develops machine learning algorithms that automate financial processes. He graduated from Yale-NUS College in 2017 with a Bachelor of Science degree (with Honours), where he explored unsupervised feature extraction for his thesis. Having a profound interest in hackathons, Sean represented Singapore during Data Science Game 2016, the largest student data science competition. Before attending university in Singapore, Sean grew up in Tokyo, Los Angeles, and Boston.
