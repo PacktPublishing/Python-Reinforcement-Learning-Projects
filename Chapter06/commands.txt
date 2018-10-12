@@ -1,0 +1,36 @@
+### TRAINING
+
+# First epoch
+
+# Bootstrapping
+
+export MODEL_NAME=000000-bootstrap
+python main.py bootstrap /tmp/minigo_working_dir models/$MODEL_NAME
+
+# Selfplay
+python main.py selfplay models/$MODEL_NAME
+
+# Gather training data and shuffle
+python main.py gather
+
+# Train
+python main.py train /tmp/minigo_working_dir \
+    data/training_chunks models/000001-bootstrap -g 1
+
+# Second epoch onwards
+
+# Increment params
+export MODEL_NAME=000001-bootstrap
+python main.py selfplay models/$MODEL_NAME
+python main.py gather
+python main.py train /tmp/minigo_working_dir \
+    data/training_chunks models/000002-bootstrap -g 2
+
+### TESTING
+
+# Export models
+export MINIGO_MODELS=/tmp/minigo-models
+cp models/000001* $MINIGO_MODELS
+
+# Execute selfplay
+python rl_loop.py selfplay --readouts=5 -v 3

@@ -1,0 +1,2 @@
+model_checkpoint_path: "Walker2d.ckpt"
+all_model_checkpoint_paths: "Walker2d.ckpt"

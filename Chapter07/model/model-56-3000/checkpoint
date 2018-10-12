@@ -1,0 +1,2 @@
+model_checkpoint_path: "new_model-56-3000"
+all_model_checkpoint_paths: "new_model-56-3000"

@@ -1,0 +1,22 @@
+tmux can be controlled using a prefix key (by default, Ctrl-b) and a command key. The command key to split into two panes is %. From within tmux:
+Ctrl-b %
+
+We can split our second pane horizontally:
+Ctrl-b "
+
+To switch to the next pane (panes are numbered left-to-right, top-down):
+Ctrl-b o
+
+A step in context above panes are windows. Windows behave similarly to tabs in a browser.
+When tmux starts up, it gives you a window and a single pane inside the window.
+To create a new window:
+Ctrl-b c
+
+tmux will switch to the new window automatically. You can see the new window indicated in the status-line. Windows are numbered from 0, so our new window is number 1.
+Now you can create panes and treat this window like we did before. We can even create another window. Our three windows are numbered 0, 1, and 2.
+To move to the next window in the index:
+Ctrl-b n
+
+To move backwards in the index:
+Ctrl-b p
+

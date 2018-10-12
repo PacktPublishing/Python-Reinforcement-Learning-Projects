@@ -1,0 +1,2 @@
+model_checkpoint_path: "Hopper.ckpt"
+all_model_checkpoint_paths: "Hopper.ckpt"
