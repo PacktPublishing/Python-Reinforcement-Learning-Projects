@@ -35,7 +35,7 @@ rsa==3.4.2
 scipy==1.1.0
 sgf==0.5
 six==1.11.0
-tensorflow==1.5.0
+tensorflow==2.3.1
 tensorflow-tensorboard==1.5.1
 tqdm==4.19.6
 urllib3==1.22
