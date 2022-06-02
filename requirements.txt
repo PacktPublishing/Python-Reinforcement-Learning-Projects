@@ -13,7 +13,7 @@ google-cloud-logging==1.5.0
 googleapis-common-protos==1.5.3
 grpcio==1.9.1
 h5py==2.7.1
-html5lib==0.9999999
+html5lib==0.99999999
 idna==2.6
 isort==4.3.4
 Keras==2.1.6
