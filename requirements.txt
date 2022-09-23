@@ -22,7 +22,7 @@ Markdown==2.6.11
 mccabe==0.6.1
 numpy==1.14.1
 petname==2.2
-protobuf==3.5.1
+protobuf==3.18.3
 pyasn1==0.4.2
 pyasn1-modules==0.2.1
 pycodestyle==2.3.1
